@@ -1,0 +1,17 @@
+{
+  "name": "html-css-101-workshop",
+  "version": "1.0.0",
+  "description": "GA HTML/CSS 101 workshop (1 hour)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Evan Wallace",
+  "license": "ISC",
+  "dependencies": {
+    "reveal.js": "^3.6.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

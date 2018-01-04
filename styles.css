@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('assets/fonts/Lato-Black.ttf'),
+        url('assets/fonts/LatoBold.ttf');
+}
+
+#presentation-title {
+    font-family: 'Lato', Fallback, sans-serif;
+    font-weight: 900;
+
+}
