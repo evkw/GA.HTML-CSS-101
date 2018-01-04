@@ -1,11 +1,107 @@
 @font-face {
     font-family: 'Lato';
-    src: url('assets/fonts/Lato-Black.ttf'),
-        url('assets/fonts/LatoBold.ttf');
+    src: url('assets/fonts/Lato-Black.ttf');   
 }
 
-#presentation-title {
-    font-family: 'Lato', Fallback, sans-serif;
-    font-weight: 900;
+@font-face {
+    font-family: 'Lato-regular';
+    src: url('assets/fonts/Lato-Regular.ttf');   
+}
 
+@font-face {
+    font-family: 'Lato-Bold-Italic';
+    src: url('assets/fonts/Lato-BoldItalic.ttf');
+}
+
+.reveal .slides > section.present, .reveal .slides > section > section.present {
+    min-height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+.slides {
+    display: flex;  
+    flex-direction: column;
+}
+
+.slides > section {
+    display: flex;
+    height: 100%;
+}
+
+.reveal section img.img-std {
+    box-shadow: none;
+    border:none;
+}
+
+section > .sub-title {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+
+.topic {
+    justify-content: center;
+    align-items: center;
+}
+
+.topic > h1 {
+   color: #fff;
+   font-family: 'Lato';
+   text-transform: uppercase;
+}
+
+ul.list > li {
+    font-family: 'Lato-regular';
+    font-size: 0.75em;
+    padding: 1.25% 0;
+}
+
+section.detail-slide .content {
+    justify-content: center;
+    align-items: center;
+}
+
+section.detail-slide > * {
+    font-family: 'Lato', Fallback, sans-serif;
+    text-align: left;
+}
+section.detail-slide > h1 {
+    font-size: 1.75em;
+}
+
+section.detail-slide > h2 {
+    font-size: 1.5em;
+}
+
+/* TITLE */
+
+#title .branding {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+#title > * {
+    color: #fff;
+    font-family: 'Lato', Fallback, sans-serif;
+    text-align: left;
+}
+
+#title .spacing {
+    height: 40%;
+}
+
+#title > h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-top: 2.5%;
+}
+#title > .space {
+    height: 30%;
+}
+
+#title > h2 {
+    font-weight: 500;
+    font-size: 0.75em;
+    font-family: 'Lato-Bold-Italic', Fallback, sans-serif;
 }
