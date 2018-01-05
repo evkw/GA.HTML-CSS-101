@@ -105,16 +105,16 @@
                 <div class="sub-title">in summary...</div>
                 <ul class="list" style="padding-top:10%">
                     <li>
-                            The Front End is what the user sees
+                        The Front End is what the user sees
                     </li>
                     <li>
-                            It powers the visuals and interactions of the web                            
+                        It powers the visuals and interactions of the web
                     </li>
                     <li>
-                            Made up of HTML, CSS and Javascript                            
+                        Made up of HTML, CSS and Javascript
                     </li>
                     <li>
-                            Is constantly evolving. Trends and styles come in and out of fashion. 
+                        Is constantly evolving. Trends and styles come in and out of fashion.
                     </li>
                 </ul>
             </section>
@@ -126,8 +126,16 @@
         Reveal.initialize({
             center: false,
             display: 'flex',
+            multiplex: {
+                // Example values. To generate your own, see the socket.io server instructions.
+                secret: '15151305764006039159', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+                id: '5a36f78f98f63b1c', // Obtained from socket.io server
+                url: 'http://evkwsocketio-env.zgastgizhz.ap-southeast-2.elasticbeanstalk.com' // Location of socket.io server
+            },
             dependencies: [
-                { src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true },
+                { src: 'socket.io.min.js', async: true },
+                { src: 'node_modules/reveal.js/plugin/multiplex/master.js', async: true },
+                { src: 'node_modules/reveal.js/plugin/multiplex/client.js', async: true },
             ]
         });
     </script>
