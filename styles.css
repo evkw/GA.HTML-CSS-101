@@ -13,6 +13,12 @@
     src: url('assets/fonts/Lato-BoldItalic.ttf');
 }
 
+.reveal section img {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
 .reveal .slides > section.present, .reveal .slides > section > section.present {
     min-height: 100% !important;
     display: flex !important;
@@ -72,6 +78,10 @@ section.detail-slide > h1 {
 
 section.detail-slide > h2 {
     font-size: 1.5em;
+}
+
+section.detail-slide .row {
+    display: flex;
 }
 
 /* TITLE */
