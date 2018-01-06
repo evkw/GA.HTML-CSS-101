@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,24.2158,-113.166)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:48px;fill:rgb(255,0,0);">T<tspan x="103.136px 127.511px " y="182.048px 182.048px ">AG</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,5.87267,-40.4745)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">&lt;h1&gt;&lt;/h1&gt;</text>
+    </g>
+    <g transform="matrix(1,0,0,1,263.668,-40.4745)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">A heading</text>
+    </g>
+    <g transform="matrix(1,0,0,1,263.668,42.952)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">A paragraph</text>
+    </g>
+    <g transform="matrix(1,0,0,1,263.668,108.092)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">A division, which is a segement of the</text>
+        <text x="82.933px" y="206.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">html page. Usually made up of other</text>
+        <text x="82.933px" y="230.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">elements</text>
+    </g>
+    <g transform="matrix(1,0,0,1,263.183,193.437)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">Similar to a div element<tspan x="314.847px 318.878px " y="182.048px 182.048px ">, </tspan>but will</text>
+        <text x="82.933px" y="206.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">display inline rather than block</text>
+    </g>
+    <g transform="matrix(1,0,0,1,5.87267,43.4207)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">&lt;p&gt;&lt;/p&gt;</text>
+    </g>
+    <g transform="matrix(1,0,0,1,5.87267,213.063)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">&lt;span&gt;&lt;/span&gt;</text>
+    </g>
+    <g transform="matrix(1,0,0,1,5.87267,129.167)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:24px;">&lt;div&gt;&lt;/div&gt;</text>
+    </g>
+    <g transform="matrix(1,0,0,1,262.117,-113.166)">
+        <text x="82.933px" y="182.048px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:48px;fill:rgb(255,0,0);">DESCRIPTION</text>
+    </g>
+    <g transform="matrix(1.03333,0,0,1,-13.3851,-29.8604)">
+        <path d="M100,120L700,120" style="fill:none;stroke:black;stroke-width:1.48px;"/>
+    </g>
+    <g transform="matrix(1.03333,0,0,1,-13.3851,54.0348)">
+        <path d="M100,120L700,120" style="fill:none;stroke:black;stroke-width:1.48px;"/>
+    </g>
+    <g transform="matrix(1.03333,0,0,1,-13.3851,139.782)">
+        <path d="M100,120L700,120" style="fill:none;stroke:black;stroke-width:1.48px;"/>
+    </g>
+    <g transform="matrix(1.03333,0,0,1,-13.3851,223.677)">
+        <path d="M100,120L700,120" style="fill:none;stroke:black;stroke-width:1.48px;"/>
+    </g>
+</svg>

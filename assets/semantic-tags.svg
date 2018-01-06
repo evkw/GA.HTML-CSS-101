@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,0.885075,0,8.02008)">
+        <rect x="123.388" y="69.785" width="566.372" height="677.623" style="fill:rgb(235,235,235);"/>
+    </g>
+    <g transform="matrix(1,0,0,0.67033,1.51707,103.172)">
+        <rect x="141.593" y="89.001" width="526.928" height="92.035" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1,0,0,0.67033,1.51707,521.882)">
+        <rect x="141.593" y="89.001" width="526.928" height="92.035" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1,0,0,0.67033,1.51707,26.3069)">
+        <rect x="141.593" y="89.001" width="526.928" height="92.035" style="fill:white;"/>
+    </g>
+    <g transform="matrix(0.582534,0,0,1.6044,60.6274,109.546)">
+        <rect x="141.593" y="89.001" width="526.928" height="92.035" style="fill:white;"/>
+    </g>
+    <g transform="matrix(0.3762,0,0,3.41758,418.541,-51.8303)">
+        <rect x="141.593" y="89.001" width="526.928" height="92.035" style="fill:white;"/>
+    </g>
+    <g transform="matrix(0.582534,0,0,1.6044,60.6274,276.423)">
+        <rect x="141.593" y="89.001" width="526.928" height="92.035" style="fill:white;"/>
+    </g>
+    <text x="296.587px" y="134.513px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:44.778px;">&lt;HEADER&gt;</text>
+    <g transform="matrix(1,0,0,1,32.1186,76.8647)">
+        <text x="296.587px" y="134.513px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:44.778px;">&lt;NA<tspan x="366.465px 389.903px " y="134.513px 134.513px ">V&gt;</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,-98.2798,209.355)">
+        <text x="296.587px" y="134.513px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:44.778px;">&lt;SECTION&gt;</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-94.2896,376.233)">
+        <text x="296.587px" y="134.513px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:44.778px;">&lt;ARTICLE&gt;</text>
+    </g>
+    <g transform="matrix(1,0,0,1,199.386,283.186)">
+        <text x="296.587px" y="134.513px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:44.778px;">&lt;ASIDE&gt;</text>
+    </g>
+    <g transform="matrix(1,0,0,1,14.4805,495.575)">
+        <text x="296.587px" y="134.513px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:44.778px;">&lt;FOOTER&gt;</text>
+    </g>
+</svg>

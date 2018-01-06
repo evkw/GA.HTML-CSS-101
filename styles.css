@@ -63,6 +63,14 @@ ul.list > li {
     padding: 1.25% 0;
 }
 
+.reveal table th, .reveal table td {
+    font-size: 1em;
+}
+
+.reveal table th, .reveal table td {
+    font-size: 0.75em;
+}
+
 p.normal {
     font-family: 'Lato-regular';
     font-size: 0.75em;
@@ -119,4 +127,24 @@ section.detail-slide .row {
     font-weight: 500;
     font-size: 0.75em;
     font-family: 'Lato-Bold-Italic', Fallback, sans-serif;
+}
+
+
+/* EXERCISE */
+section.detail-slide .exercise {
+    display: flex;
+    height: 100%;
+}
+
+section.detail-slide .exercise .instructions {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid gray;
+    height: 80%;
+    margin: auto;
+}
+
+section.detail-slide .exercise .instructions ol {
+    height: 80%;
+    margin: auto;
 }
