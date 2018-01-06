@@ -63,6 +63,11 @@ ul.list > li {
     padding: 1.25% 0;
 }
 
+p.normal {
+    font-family: 'Lato-regular';
+    font-size: 0.75em;
+}
+
 section.detail-slide .content {
     justify-content: center;
     align-items: center;

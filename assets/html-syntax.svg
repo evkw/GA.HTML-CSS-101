@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,0.563263,-2.05921,-6.8798)">
+        <rect x="46.847" y="69.176" width="710.425" height="152.381" style="fill:rgb(235,235,235);"/>
+    </g>
+    <g transform="matrix(1.01031,0,0,0.435657,-0.0585726,11.3349)">
+        <rect x="64.474" y="87.46" width="668.108" height="117.675" style="fill:rgb(121,121,121);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,12.3405,-89.8096)">
+        <text x="78.703px" y="172.797px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:30px;fill:rgb(235,235,235);">&lt;tag name&gt;</text>
+    </g>
+    <g transform="matrix(1,0,0,1,485.975,-88.7402)">
+        <text x="78.703px" y="172.797px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:30px;fill:rgb(235,235,235);">&lt;/tag name&gt;</text>
+    </g>
+    <g transform="matrix(1,0,0,1,0,-41.7248)">
+        <rect x="259.952" y="91.162" width="280.746" height="51.266" style="fill:rgb(169,169,169);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,269.053,-88.3081)">
+        <text x="78.703px" y="172.797px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:30px;fill:rgb(235,235,235);">contents</text>
+    </g>
+</svg>
