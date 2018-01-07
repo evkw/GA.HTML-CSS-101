@@ -145,6 +145,11 @@ section.detail-slide .exercise .instructions {
 }
 
 section.detail-slide .exercise .instructions ol {
-    height: 80%;
-    margin: auto;
+    padding:3%
+}
+
+section.detail-slide .exercise .instructions ol li {
+    font-family: 'Lato-regular';
+    font-size:0.75em;
+    padding: 1.5% 0;
 }
