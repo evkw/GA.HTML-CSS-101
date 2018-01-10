@@ -4,6 +4,16 @@
     <title>Coding 101: HTML and CSS</title>
     <link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
     <link rel="stylesheet" href="node_modules/reveal.js/css/theme/white.css">
+
+
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'node_modules/reveal.js/css/print/pdf.css' : 'node_modules/reveal.js/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -41,35 +51,35 @@
                 <div class="sub-title">
                     world wide web
                 </div>
-                <img src="assets/request-response.svg" />
+                <img style="height: 80%" src="assets/request-response.svg" />
             </section>
 
             <section class="detail-slide">
                 <div class="sub-title">
                     world wide web
                 </div>
-                <img src="assets/request-diagram01.svg" />
+                <img src="assets/request-diagram01.svg" style="height:80%" />
             </section>
 
             <section class="detail-slide">
                 <div class="sub-title">
                     world wide web
                 </div>
-                <img src="assets/request-diagram02.svg" />
+                <img src="assets/request-diagram02.svg" style="height:80%" />
             </section>
 
             <section class="detail-slide">
                 <div class="sub-title">
                     world wide web
                 </div>
-                <img src="assets/request-diagram03.svg" />
+                <img src="assets/request-diagram03.svg" style="height:80%" />
             </section>
 
             <section class="detail-slide">
                 <div class="sub-title">
                     world wide web
                 </div>
-                <img src="assets/request-diagram04.svg" />
+                <img src="assets/request-diagram04.svg" style="height:80%" />
             </section>
 
             <section class="topic" data-background-color="#F33938">
@@ -153,7 +163,7 @@
 
             <section class="detail-slide">
                 <div class="sub-title">Front End</div>
-                <img style="padding-top:10%" src="assets/fe-languages.svg"/>
+                <img style="padding-top:10%" src="assets/fe-languages.svg" />
             </section>
 
 
@@ -163,9 +173,9 @@
 
             <section class="detail-slide">
                 <div class="sub-title">html</div>
-                <div class="row">
-                    <img src="assets/html-cake.png" />
-                    <ul class="list" style="padding-top: 10%">
+                <div class="row" style="display:inline-block;">
+                    <img src="assets/html-cake.png" style="width:45%" />
+                    <ul class="list" style="width:45%; vertical-align: top;">
                         <li>
                             Structure of the cake
                         </li>
@@ -173,14 +183,14 @@
                             Made up of building blocks (cake tiers in this analogy)
                         </li>
                     </ul>
-                </div>
+                    </span>
             </section>
 
             <section class="detail-slide">
                 <div class="sub-title">css</div>
-                <div class="row">
-                    <img src="assets/css-cake.png" />
-                    <ul class="list" style="padding-top: 10%">
+                <div class="row" style="display:inline-block;">
+                    <img src="assets/css-cake.png" style="width:45%" />
+                    <ul class="list" style="width:45%; vertical-align: top;">
                         <li>
                             Style of the cake!
                         </li>
@@ -196,9 +206,9 @@
 
             <section class="detail-slide">
                 <div class="sub-title">javascript</div>
-                <div class="row">
-                    <img src="assets/js-cake.png" />
-                    <ul class="list" style="padding-top: 10%">
+                <div class="row" style="display:inline-block;">
+                    <img src="assets/js-cake.png" style="width:45%" />
+                    <ul class="list" style="width:45%; vertical-align: top;">
                         <li>
                             Adds interactions to the cake
                         </li>
@@ -212,20 +222,16 @@
                 </div>
             </section>
 
-            <section class="detail-slide">
+            <section class="detail-slide exercise">
                 <div class="sub-title">ACTIVITY: DISTINGUISH BETWEEN HTML, CSS, AND JS</div>
-                <div class="exercise">
-                    <img src="assets/exercise.svg" />
-                    <div class="instructions">
-                        <ol>
-                            <li>Let’s visit lyft.com together</li>
-                            <li>The words “Rides in Minutes” appears due to ______? </li>
-                            <li>The reason for which “Rides in Minutes” is centered and white is due to _______?</li>
-                            <li>Hover over the word “Explore” in the navigation menu. That animation is most likely due to _______?
-                            </li>
-                        </ol>
-                    </div>
-                </div>
+                <img src="assets/exercise.svg" />
+                <ol>
+                    <li>Let’s visit lyft.com together</li>
+                    <li>The words “Rides in Minutes” appears due to ______? </li>
+                    <li>The reason for which “Rides in Minutes” is centered and white is due to _______?</li>
+                    <li>Hover over the word “Explore” in the navigation menu. That animation is most likely due to _______?
+                    </li>
+                </ol>
             </section>
 
             <section class="detail-slide">
@@ -245,7 +251,7 @@
 
             <section class="detail-slide">
                 <div class="sub-title">html semantic elements</div>
-                <img src="assets/semantic-tags.svg" />
+                <img src="assets/semantic-tags.svg" style="height:80%;"/>
             </section>
 
 
@@ -319,25 +325,21 @@
 
             <section class="detail-slide">
                 <div class="sub-title">HTML Layout</div>
-                <img src="assets/html-page-format.svg"/>
+                <img src="assets/html-page-format.svg" />
             </section>
 
-            <section class="detail-slide">
+            <section class="detail-slide exercise">
                 <div class="sub-title">ACTIVITY: CREATING YOUR FIRST HTML FILE</div>
-                <div class="exercise">
-                    <img src="assets/exercise.svg" />
-                    <div class="instructions">
-                        <ol>
-                            <li>Create a folder on your desktop and title it “Coding 101”</li>
-                            <li>Open up the folder you just made in your text editor</li>
-                            <li>Save your file as “index.html”</li>
-                            <li>Type out the HTML basic layout</li>
-                            <li>Open up the HTML file in Google Chrome</li>
-                            <li>Add more content tags: h1-h6, p, ul/li, button or a to create an “About Me” webpage</li>
-                            <li>Keep your editor open</li>
-                        </ol>
-                    </div>
-                </div>
+                <img src="assets/exercise.svg" />
+                <ol>
+                    <li>Create a folder on your desktop and title it “Coding 101”</li>
+                    <li>Open up the folder you just made in your text editor</li>
+                    <li>Save your file as “index.html”</li>
+                    <li>Type out the HTML basic layout</li>
+                    <li>Open up the HTML file in Google Chrome</li>
+                    <li>Add more content tags: h1-h6, p, ul/li, button or a to create an “About Me” webpage</li>
+                    <li>Keep your editor open</li>
+                </ol>
             </section>
 
             <section class="topic" data-background-color="1EC9C6">
@@ -346,29 +348,25 @@
 
             <section class="detail-slide">
                 <div class="sub-title">CSS: Cascading style sheet</div>
-                <img src="assets/css-syntax.svg" />
+                <img src="assets/css-syntax.svg" style="height:80%"/>
             </section>
 
             <section class="detail-slide">
                 <div class="sub-title">CSS: Example</div>
-                <img src="assets/css-example.png"/>
+                <img src="assets/css-example.png" />
             </section>
 
-            <section class="detail-slide">
+            <section class="detail-slide exercise">
                 <div class="sub-title">ACTIVITY: CREATING YOUR FIRST CSS FILE</div>
-                <div class="exercise">
-                    <img src="assets/exercise.svg" />
-                    <div class="instructions">
-                        <ol>
-                            <li>You should still have the “Coding 101” folder open in your editor</li>
-                            <li>Create a new file from the editor, save the file as “style.css”</li>
-                            <li>Add a few CSS properties(color, background-color, font-family, text-align) to the content created
-                                in the last activity</li>
-                            <li>Connect your external CSS file to your HTML file</li>
-                            <li>Open up the HTML file in Google Chrome</li>
-                        </ol>
-                    </div>
-                </div>
+                <img src="assets/exercise.svg" />
+                <ol>
+                    <li>You should still have the “Coding 101” folder open in your editor</li>
+                    <li>Create a new file from the editor, save the file as “style.css”</li>
+                    <li>Add a few CSS properties(color, background-color, font-family, text-align) to the content created in
+                        the last activity</li>
+                    <li>Connect your external CSS file to your HTML file</li>
+                    <li>Open up the HTML file in Google Chrome</li>
+                </ol>
             </section>
 
             <section class="topic" data-background-color="#F33938">
@@ -382,7 +380,7 @@
 
             <section class="detail-slide">
                 <div class="sub-title">HOW TO LEARN THIS AT GA?</div>
-                <img src="assets/GA-courses.png" />
+                <img src="assets/GA-courses.png" style="height:80%"/>
             </section>
 
             <section class="topic" data-background-color="black">
@@ -471,21 +469,18 @@
                     <li>You are going to come across lots of errors when doing any form of development</li>
                     <li>Sites like Stack Overflow are there to reach out to the community for help or guidance</li>
                     <li>Getting involved in open source projects on github.com is another way to get immersed in the world of
-                        development</li>
+                        development
+                    </li>
                 </ul>
             </section>
 
-            <section class="detail-slide">
+            <section class="detail-slide exercise">
                 <div class="sub-title">Activity: after class you can...</div>
-                <div class="exercise">
-                    <img src="assets/exercise.svg" />
-                    <div class="instructions">
-                        <ol>
-                            <li>Go to dash.ga.co</li>
-                            <li>There are 5 projects available to you that cover what we went over tonight and more!</li>
-                        </ol>
-                    </div>
-                </div>
+                <img src="assets/exercise.svg" />
+                <ol>
+                    <li>Go to dash.ga.co</li>
+                    <li>There are 5 projects available to you that cover what we went over tonight and more!</li>
+                </ol>
             </section>
 
             <section class="topic" data-background-color="FFD800">
@@ -493,27 +488,26 @@
             </section>
 
 
+            </div>
         </div>
-    </div>
-    <script src="node_modules/reveal.js/lib/js/head.min.js"></script>
-    <script src="node_modules/reveal.js/js/reveal.js"></script>
-    <script>
-        Reveal.initialize({
-            center: false,
-            display: 'flex',
-            multiplex: {
-                // Example values. To generate your own, see the socket.io server instructions.
-                secret: '15151305764006039159', // Obtained from the socket.io server. Gives this (the master) control of the presentation
-                id: '5a36f78f98f63b1c', // Obtained from socket.io server
-                url: 'http://evkwsocketio-env.zgastgizhz.ap-southeast-2.elasticbeanstalk.com' // Location of socket.io server
-            },
-            dependencies: [
-                { src: 'socket.io.min.js', async: true },
-                { src: 'node_modules/reveal.js/plugin/multiplex/master.js', async: true },
-                { src: 'node_modules/reveal.js/plugin/multiplex/client.js', async: true },
-            ]
-        });
-    </script>
+        <script src="node_modules/reveal.js/lib/js/head.min.js"></script>
+        <script src="node_modules/reveal.js/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                center: false,
+                multiplex: {
+                    // Example values. To generate your own, see the socket.io server instructions.
+                    secret: '15151305764006039159', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+                    id: '5a36f78f98f63b1c', // Obtained from socket.io server
+                    url: 'http://evkwsocketio-env.zgastgizhz.ap-southeast-2.elasticbeanstalk.com' // Location of socket.io server
+                },
+                dependencies: [
+                    { src: 'socket.io.min.js', async: true },
+                    { src: 'node_modules/reveal.js/plugin/multiplex/master.js', async: true },
+                    { src: 'node_modules/reveal.js/plugin/multiplex/client.js', async: true },
+                ]
+            });
+        </script>
 </body>
 
 </html>

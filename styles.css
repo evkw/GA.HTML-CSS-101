@@ -19,21 +19,6 @@
     box-shadow: none !important;
 }
 
-.reveal .slides > section.present, .reveal .slides > section > section.present {
-    min-height: 100% !important;
-    display: flex !important;
-    flex-direction: column !important;
-  }
-
-.slides {
-    display: flex;  
-    flex-direction: column;
-}
-
-.slides > section {
-    display: flex;
-    height: 100%;
-}
 
 .reveal section img.img-std {
     box-shadow: none;
@@ -93,10 +78,6 @@ section.detail-slide > h2 {
     font-size: 1.5em;
 }
 
-section.detail-slide .row {
-    display: flex;
-}
-
 /* TITLE */
 
 #title .branding {
@@ -110,18 +91,12 @@ section.detail-slide .row {
     text-align: left;
 }
 
-#title .spacing {
-    height: 40%;
-}
-
 #title > h1 {
     font-weight: 900;
     font-size: 2.5em;
     margin-top: 2.5%;
 }
-#title > .space {
-    height: 30%;
-}
+
 
 #title > h2 {
     font-weight: 500;
@@ -131,25 +106,27 @@ section.detail-slide .row {
 
 
 /* EXERCISE */
-section.detail-slide .exercise {
-    display: flex;
-    height: 100%;
+section.detail-slide.exercise {
+    display: inline-block;
+}
+section.detail-slide.exercise img{
+    height: 150px;
+    padding-bottom: 150px;
+    padding-right: 50px;
 }
 
-section.detail-slide .exercise .instructions {
-    display: flex;
-    flex-direction: column;
+section.detail-slide.exercise ol li{
+    font-family: 'Lato-regular';
+    font-size: 0.75em;
+    padding: 1.25% 0;
+}
+
+
+section.detail-slide.exercise ol {
+    width:50%;
+}
+
+section.detail-slide .exercise .intructions {
     border-left: 1px solid gray;
     height: 80%;
-    margin: auto;
-}
-
-section.detail-slide .exercise .instructions ol {
-    padding:3%
-}
-
-section.detail-slide .exercise .instructions ol li {
-    font-family: 'Lato-regular';
-    font-size:0.75em;
-    padding: 1.5% 0;
 }
